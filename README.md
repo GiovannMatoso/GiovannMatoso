@@ -1,0 +1,2 @@
+- Entregar a primeira versão do jogo de damas funcionando com os movimentos de avanço de uma casa e captura de peças.
+- Entregar também um placar com as pelas já capturada de cada jogador
