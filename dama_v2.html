@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabuleiro de Damas</title>
+    <link rel="stylesheet" href="dama.css">
+</head>
+
+<body>
+    <table style="width:100%;">
+        <tr>
+            <td>
+                <div id="jogador1">Jogador 1</div>
+                <div id="pontosJogador1">Pontos: 0</div>
+                <div id="pecasCapturadasJogador1">Pecas capturadas: 0</div>
+            </td>
+            <td>
+                <div style="text-align: center;">
+                    <button onclick="jogo.inicializa()" style="width: 150px; height: 50px;">Inicializar jogo</button>
+                    <div id="tabuleiro"></div>
+                </div>
+            </td>
+            <td>
+                <div id="jogador2">Jogador 2</div>
+                <div id="pontosJogador2">Pontos: 0</div>
+                <div id="pecasCapturadasJogador2">Pecas capturadas: 0</div>
+            </td>
+        </tr>
+    </table>
+</body>
+<script src="dama.js"></script>
+
+</html>
